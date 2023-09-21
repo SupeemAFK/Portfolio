@@ -1,7 +1,7 @@
 <script>
     import Skills from "../components/Skills/Skills.svelte";
     import Education from "../components/Education.svelte";
-    import Works from "../components/Works/Works.svelte";
+    import WorksHighlight from "../components/WorksHighlight/WorksHighlight.svelte";
     import Model from "../components/3DModel/Model.svelte";
     import Contacts from "../components/Contacts.svelte";
     import Typewriter from 'svelte-typewriter'
@@ -18,7 +18,7 @@
         </Typewriter>
         <Education />
         <Skills />
-        <Works />
+        <WorksHighlight />
         <Contacts />
     </div>
 </div>
