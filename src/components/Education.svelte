@@ -8,7 +8,7 @@
             <p>2023 - present</p>
         </div>
         <div class="ml-5">
-            <p>Born</p>
+            <p>Born Lomsak Phetchabun Thailand</p>
             <p>Anubanthippaya Elementary  School</p>
             <p>Lomsakwittayakhom School</p>
             <p>Lomsakwittayakhom School</p>

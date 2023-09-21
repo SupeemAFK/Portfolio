@@ -5,7 +5,9 @@
   
 <Navbar />
 <main class="bg-neutral-800 text-white">
-    <slot />
+	<div class="py-5 md:px-96 px-5 min-h-screen">
+		<slot />
+	</div>
 </main>
 
 <style>

@@ -1,6 +1,6 @@
 <script>
     import Card from "./Card.svelte";
-    import FaAngleRight from 'svelte-icons/fa/FaAngleRight.svelte'
+    import FaAngleRight from 'svelte-icons/fa/FaAngleRight.svelte';
     const nums = [0, 1, 2, 3]
 </script>
 
