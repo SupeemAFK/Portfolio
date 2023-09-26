@@ -1,22 +1,23 @@
 <script>
     import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte'
+    export let projectName = "";
+    export let details = "";
+    export let img = "";
 </script>
 
-<div class=" bg-neutral-900 text-white rounded-md">
-    <div class="rounded-t-md">
-        <img class="object-cover rounded-t-md" src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="" />
+<a href="/works">
+    <div class=" bg-neutral-900 text-white rounded-md cursor-pointer xl:grayscale-[50%] hover:grayscale-0 hover:scale-110 transition-all duration-300">
+        <div class="rounded-t-md">
+            <img class="object-cover rounded-t-md" src={img} alt={projectName} />
+        </div>
+        <div class="p-5">
+            <h1 class="text-2xl font-semibold">{projectName}</h1>
+            <p>{details}</p>
+        </div>
+        <div class="xl:hidden flex justify-center p-5">
+            <a href="/works">
+                <button class="p-2 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-md">View Project</button>
+            </a>
+        </div>
     </div>
-    <div class="p-5">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at quas,</p>
-    </div>
-    <div class="flex justify-end p-5">
-        <a href="https://github.com/">
-            <div class="border-2 border-white hover:bg-white hover:text-neutral-900 flex items-center p-2 rounded-md text-xs transition-all duration-300">
-                <p>View Project</p>
-                <div class="w-5 h-5 ml-1">
-                    <DiGithubBadge />
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
+</a>

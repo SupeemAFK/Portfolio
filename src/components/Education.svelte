@@ -1,17 +1,22 @@
-<div class="mt-10" id="Education">
+<div class="mt-10">
+    <div class="relative top-[-30vh]" id="Education"></div>    
     <h1 class="text-xl font-semibold">Education</h1>
-    <div class="flex mt-2">
-        <div>
+    <div>
+        <div class="flex">
             <p>2005</p>
-            <p>2011</p>
-            <p>2018</p>
-            <p>2023 - present</p>
+            <p class="flex-1 ml-5">Born Lomsak Phetchabun Thailand</p>
         </div>
-        <div class="ml-5">
-            <p>Born Lomsak Phetchabun Thailand</p>
-            <p>Anubanthippaya Elementary  School</p>
-            <p>Lomsakwittayakhom School</p>
-            <p>Lomsakwittayakhom School</p>
+        <div class="flex">
+            <p>2012</p>
+            <p class="flex-1 ml-5">Anubanthippaya Elementary School</p>
+        </div>
+        <div class="flex">
+            <p>2018</p>
+            <p class="flex-1 ml-5">Lomsakwittayakhom School</p>
+        </div>
+        <div class="flex">
+            <p>2021 - present</p>
+            <p class="flex-1 ml-5">Lomsakwittayakhom School</p>
         </div>
     </div>
 </div>

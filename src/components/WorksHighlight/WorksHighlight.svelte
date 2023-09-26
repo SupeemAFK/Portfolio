@@ -1,14 +1,15 @@
 <script>
     import Card from "./Card.svelte";
     import FaAngleRight from 'svelte-icons/fa/FaAngleRight.svelte';
-    const nums = [0, 1, 2, 3]
+    import { highlightWorks } from "../../data/works";
 </script>
 
-<div class="mt-10 flex flex-col items-center" id="Works">
-    <h1 class="text-xl font-semibold">Works</h1>
-    <div class="mt-5 grid lg:grid-cols-2 lg:gap-2 lg:w-3/4 grid-cols-1 gap-3 w-full">
-        {#each nums as num}
-            <Card />
+<div class="mt-10 flex flex-col items-center">
+    <div class="relative top-[-10vh]" id="Works"></div>    
+    <h1 class="text-xl font-semibold">Works Highlights</h1>
+    <div class="mt-5 grid lg:grid-cols-2 lg:gap-10 lg:w-3/4 grid-cols-1 gap-5 w-full">
+        {#each highlightWorks as work}
+            <Card projectName={work.projectName}  details={work.details} img={work.img} />
         {/each}
     </div>
     <a href="/works">

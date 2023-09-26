@@ -1,13 +1,21 @@
 <script>
     import "../app.css";
     import Navbar from "../components/Navbar.svelte";
+	import { fly } from "svelte/transition";
+	export let data;
 </script>
   
 <Navbar />
 <main class="bg-neutral-800 text-white">
-	<div class="py-5 xl:px-96 md:px-28 px-5 min-h-screen">
-		<slot />
-	</div>
+	{#key data.url}
+		<div 
+			in:fly={{ x: -200, duration: 500, delay: 500 }} 
+			out:fly={{ x: -200, duration: 200 }} 
+			class="py-5 md:px-28 px-5 min-h-screen mt-16"
+		>
+			<slot />
+		</div>
+	{/key}
 </main>
 
 <style>
@@ -15,5 +23,8 @@
 		position: relative;
 		margin: 0 auto;
 		padding: var(--nav-h) 0 0 0;
+	}
+	:global(html) {
+    	scroll-behavior: smooth;
 	}
 </style>
