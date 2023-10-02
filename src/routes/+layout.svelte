@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import "../app.css";
     import Navbar from "../components/Navbar.svelte";
 	import SidebarMobile from "../components/SidebarMobile.svelte";

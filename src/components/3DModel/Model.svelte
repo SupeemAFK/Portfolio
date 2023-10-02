@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ThreeModel from "./ThreeModel.svelte";
     import * as THREE from "three";
     import * as SC from 'svelte-cubed';

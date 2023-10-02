@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte'
     import IoLogoFacebook from 'svelte-icons/io/IoLogoFacebook.svelte'
     import IoLogoInstagram from 'svelte-icons/io/IoLogoInstagram.svelte'

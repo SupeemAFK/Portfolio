@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import WorksCard from "../../components/Works/WorksCard.svelte";
     import { allWorks, applicationDevelopmentWorks, gameDevelopmentWorks, machineLearningWorks } from "../../data/works";
     let workFields = "all";

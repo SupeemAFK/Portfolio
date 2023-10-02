@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Skills from "../components/Skills/Skills.svelte";
     import Education from "../components/Education.svelte";
     import WorksHighlight from "../components/WorksHighlight/WorksHighlight.svelte";

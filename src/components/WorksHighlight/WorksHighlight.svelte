@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Card from "./Card.svelte";
     import FaAngleRight from 'svelte-icons/fa/FaAngleRight.svelte';
     import { highlightWorks } from "../../data/works";

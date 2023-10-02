@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
     import Tool from "./Tool.svelte";
-    import { laguages, applicationsTools, databasesTools, machineLearningTools, gameDevelopmentTools } from "../../data/tools.ts";
+    import { laguages, applicationsTools, databasesTools, machineLearningTools, gameDevelopmentTools } from "../../data/tools";
 </script>
 
 <div class="mt-10">

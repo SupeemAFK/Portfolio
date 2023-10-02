@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import * as SC from 'svelte-cubed';
     import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
     import { onMount } from 'svelte';
