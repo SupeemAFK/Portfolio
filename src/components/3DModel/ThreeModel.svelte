@@ -7,11 +7,13 @@
   
     function loadGLTF() {
       const loader = new GLTFLoader();
-      return loader.loadAsync('/scene.gltf');
+      return loader.loadAsync('/Peem.gltf');
     }
   
     onMount(() => {
-      loadGLTF().then(_model => model = _model);
+      loadGLTF().then(_model => {
+        model = _model
+      });
     })
   
   </script>
@@ -19,6 +21,6 @@
   {#if model}
     <SC.Primitive
       object={model.scene}
-      scale={[.05,.05,.05]}
+      scale={[20, 20, 20]}
     />
   {/if}

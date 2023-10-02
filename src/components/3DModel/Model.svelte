@@ -9,10 +9,10 @@
     antialias
 >
     <SC.PerspectiveCamera 
-        position={[-10, 36, 20]}
+        position={[30, 0, 60]}
         near={0.1}
         far={500}
-        fov={40}
+        fov={45}
     />
     <SC.OrbitControls 
         enabled={true}
@@ -21,7 +21,7 @@
         autoRotateSpeed={2}
         enableDamping={true}
         dampingFactor={0.1}
-        target={[-6, 17, 0]}
+        target={[-6, -5, 0]}
     />
     <SC.DirectionalLight
         color={new THREE.Color(0xffffff)}

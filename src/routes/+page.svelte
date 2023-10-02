@@ -29,12 +29,12 @@
                 </Typewriter>
                 <h1 class="text-center md:text-5xl text-4xl font-semibold ml-2">Developer</h1>
             </div>
-            <div>
-                <button class="mt-5 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 p-3">See my journey</button>
+            <div class="mt-10 w-3/4">
+                <p class="text-xl">Hello I a am high schooler and a developer who love to develop new things</p>
             </div>
         </div>
     </div>
-    <div class="mt-52">
+    <div class="md:mt-52">
         <Education />
         <Skills />
         <WorksHighlight />

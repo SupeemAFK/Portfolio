@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let svg = "";
     export let name = "";
 </script>

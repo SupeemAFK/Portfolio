@@ -1,11 +1,18 @@
 <script>
     import "../app.css";
     import Navbar from "../components/Navbar.svelte";
+	import SidebarMobile from "../components/SidebarMobile.svelte";
 	import { fly } from "svelte/transition";
+
 	export let data;
+	let openSidebar = false;
+	function setOpenSidebar() {
+		openSidebar = !openSidebar;
+	}
 </script>
   
-<Navbar />
+<Navbar setOpenSidebar={setOpenSidebar} />
+<SidebarMobile openSidebar={openSidebar} />
 <main class="bg-neutral-800 text-white">
 	{#key data.url}
 		<div 
