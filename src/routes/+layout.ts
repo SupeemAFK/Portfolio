@@ -1,6 +1,7 @@
-export const prerender = true;
+import type { Load } from "@sveltejs/kit"
 
-export function load({ url }) {
+export const prerender = true;
+export const load: Load = ({ url }) => {
     return {
         url: url.pathname
     }

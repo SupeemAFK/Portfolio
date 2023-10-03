@@ -1,6 +1,5 @@
 <script lang="ts">
     import Card from "./Card.svelte";
-    import FaAngleRight from 'svelte-icons/fa/FaAngleRight.svelte';
     import { highlightWorks } from "../../data/works";
 </script>
 
@@ -17,7 +16,6 @@
             class="flex items-center mt-5 border-2 border-white p-2 rounded-md hover:bg-white hover:text-neutral-900 transition-all duration-300">
             See more of works 
             <div class="w-5 h-5 flex items-center">
-                <FaAngleRight />
             </div>
         </button>
     </a>

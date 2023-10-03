@@ -6,7 +6,7 @@
 
 <div>
     <div class="flex justify-center">
-        <select on:change={e => workFields = e.target.value} class="bg-neutral-700 p-3 rounded-xl cursor-pointer" name="Work Fields">
+        <select on:change={e => workFields = e.currentTarget.value} class="bg-neutral-700 p-3 rounded-xl cursor-pointer" name="Work Fields">
             <option value="all">All works</option>
             <option value="application">Web/Mobile Application works</option>
             <option value="machineLearning">Machine Learning works</option>

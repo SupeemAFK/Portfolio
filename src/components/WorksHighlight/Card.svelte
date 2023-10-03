@@ -1,5 +1,4 @@
 <script lang="ts">
-    import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte'
     export let projectName = "";
     export let details = "";
     export let img = "";

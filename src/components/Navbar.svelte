@@ -1,5 +1,4 @@
 <script lang="ts">
-    import FaAlignJustify from 'svelte-icons/fa/FaAlignJustify.svelte'
     export let setOpenSidebar: () => void;
 </script>
 
@@ -14,6 +13,6 @@
         <a href="#Contacts">Contacts</a>
     </div>
     <div class="md:hidden block">
-        <button on:click={setOpenSidebar}><FaAlignJustify /></button>
+        <button on:click={setOpenSidebar}></button>
     </div>
 </div>

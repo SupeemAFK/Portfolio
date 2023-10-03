@@ -1,6 +1,5 @@
 <script lang="ts">
-    import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte'
-
+    
     export let projectName = "";
     export let details = "";
     export let img = "";
@@ -82,7 +81,6 @@
                     <div class="border-2 border-white hover:bg-white hover:text-neutral-900 flex items-center p-2 rounded-md text-xs transition-all duration-300">
                         <p>View Project</p>
                         <div class="w-5 h-5 ml-1">
-                            <DiGithubBadge />
                         </div>
                     </div>
                 </a>
