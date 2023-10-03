@@ -14,6 +14,6 @@
         <a href="#Contacts">Contacts</a>
     </div>
     <div class="md:hidden block">
-        <button on:click={setOpenSidebar}><FaAlignJustify /></button>
+        <button class="w-5 h-5" on:click={setOpenSidebar}><FaAlignJustify /></button>
     </div>
 </div>
