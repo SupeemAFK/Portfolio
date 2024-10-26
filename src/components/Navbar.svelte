@@ -9,9 +9,9 @@
     </div>
     <div class="md:block hidden">
         <a href="#Education">Education</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Works">Works</a>
-        <a href="#Contacts">Contacts</a>
+        <a class="ml-2" href="#Skills">Skills</a>
+        <a class="ml-2" href="#Works">Works</a>
+        <a class="ml-2" href="#Contacts">Contacts</a>
     </div>
     <div class="md:hidden block">
         <button class="w-5 h-5" on:click={setOpenSidebar}><FaAlignJustify /></button>

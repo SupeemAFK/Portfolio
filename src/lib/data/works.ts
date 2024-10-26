@@ -12,8 +12,6 @@ interface IWork {
     sourceCode: string;
 }
 
-//I create three array because it easier to add more works in the future
-
 export const applicationDevelopmentWorks: IWork[] = [
     {
         projectName: "ANI_GPT",

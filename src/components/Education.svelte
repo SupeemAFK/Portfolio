@@ -15,8 +15,8 @@
             <p class="flex-1 ml-5">Lomsakwittayakhom School</p>
         </div>
         <div class="flex">
-            <p>2021 - present</p>
-            <p class="flex-1 ml-5">Lomsakwittayakhom School</p>
+            <p>2024-current</p>
+            <p class="flex-1 ml-5">King Mongkut's University of Technology Thonburi</p>
         </div>
     </div>
 </div>

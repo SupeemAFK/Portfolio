@@ -30,7 +30,7 @@
                 <h1 class="text-center md:text-5xl text-4xl font-semibold ml-2">Developer</h1>
             </div>
             <div class="mt-10 w-3/4">
-                <p class="text-xl">Hello I a am high schooler and a developer who love to develop new things</p>
+                <p class="text-xl">Hello! I am a university freshman and a developer who love to develop new things</p>
             </div>
         </div>
     </div>
