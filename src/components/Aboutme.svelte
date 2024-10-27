@@ -4,6 +4,7 @@
 </script>
 
 <div class="mt-10">
+    <div class="relative top-[-30vh]" id="Aboutme"></div>    
     <div class="flex items-center">
         <h1 class="text-xl font-semibold">About me</h1>
     </div>

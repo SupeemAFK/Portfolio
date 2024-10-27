@@ -8,7 +8,8 @@
         <a href="/">Portfolio</a>
     </div>
     <div class="md:block hidden">
-        <a href="#Education">Education</a>
+        <a href="#Aboutme">Aboutme</a>
+        <a class="ml-2" href="#Education">Education</a>
         <a class="ml-2" href="#Skills">Skills</a>
         <a class="ml-2" href="#Works">Works</a>
         <a class="ml-2" href="#Contacts">Contacts</a>
